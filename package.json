@@ -1,0 +1,29 @@
+{
+	"name": "rxjs",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --mode development"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://marcocaldera@github.com/marcocaldera/rxjs.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/marcocaldera/rxjs/issues"
+	},
+	"homepage": "https://github.com/marcocaldera/rxjs#readme",
+	"dependencies": {
+		"rxjs": "^6.5.5",
+		"rxjs-compat": "^6.5.5",
+		"ts-loader": "^7.0.1",
+		"typescript": "^3.8.3",
+		"webpack": "^4.42.1",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.10.3"
+	}
+}

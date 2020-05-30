@@ -51,7 +51,7 @@ export class CourseComponent implements OnInit, AfterViewInit {
     ).pipe(
       map((event) => event.target.value),
       /**
-       * i: emettiamo il valore dell'observer sono se per
+       * i: emettiamo il valore dell'observer solo se per
        * i: 200ms non viene emesso aclun altro valore da questo observer
        */
       debounceTime(200),
